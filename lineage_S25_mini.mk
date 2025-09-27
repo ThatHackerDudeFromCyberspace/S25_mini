@@ -6,10 +6,11 @@
 #
 
 # Inherit from those products. Most specific first.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
+include $(SRC_TARGET_DIR)/vendor/lineage/config/common_full_phone.mk
+#$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 #$(call inherit-product, $(SRC_TARGET_DIR)/product/core_minimal.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
+#$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+#$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
 # Inherit proprietary stuff if it exists
 $(call inherit-product-if-exists, vendor/welcome/S25_mini/S25_mini-vendor.mk)
