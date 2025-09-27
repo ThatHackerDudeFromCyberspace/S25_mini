@@ -31,7 +31,7 @@ PRODUCT_COPY_FILES += \
     frameworks/av/services/audiopolicy/config/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/fstab.mt6739:/system/etc/fstab.mt6739
+    $(LOCAL_PATH)/rootdir/etc/recovery.fstab:/system/etc/recovery.fstab
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
