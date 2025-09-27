@@ -16,7 +16,7 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 $(call inherit-product, device/welcome/S25_mini/device.mk)
 
 PRODUCT_DEVICE := S25_mini
-PRODUCT_NAME := twrp_S25_mini
+PRODUCT_NAME := lineage_S25_mini
 PRODUCT_BRAND := Welcome
 PRODUCT_MODEL := S25 mini
 PRODUCT_MANUFACTURER := welcome
