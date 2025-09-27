@@ -11,7 +11,7 @@ $(call inherit-product, device/welcome/S25_mini/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product-if-exists, vendor/welcome/S25_mini/S25_mini-vendor.mk)
 
-# Inherit from S25_mini device
+PRODUCT_BUILD_SUPER_PARTITION := true
 
 # Audio policy configuration
 USE_XML_AUDIO_POLICY_CONF := 1
