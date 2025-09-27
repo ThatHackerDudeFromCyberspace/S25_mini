@@ -13,7 +13,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from S25_mini device
-$(call inherit-product, device/welcome/android_device_gamakoo_s25_mini/device.mk)
+$(call inherit-product, device/welcome/S25_mini/device.mk)
 
 PRODUCT_DEVICE := S25_mini
 PRODUCT_NAME := twrp_S25_mini
