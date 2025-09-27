@@ -6,16 +6,17 @@
 #
 
 # Inherit from those products. Most specific first.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+#$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
-# Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+# Inherit some common TWRP stuff.
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from S25_mini device
 $(call inherit-product, device/welcome/android_device_gamakoo_s25_mini/device.mk)
 
 PRODUCT_DEVICE := S25_mini
-PRODUCT_NAME := omni_S25_mini
+PRODUCT_NAME := twrp_S25_mini
 PRODUCT_BRAND := Welcome
 PRODUCT_MODEL := S25 mini
 PRODUCT_MANUFACTURER := welcome
