@@ -5,4 +5,4 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/welcome/S25_mini
+LOCAL_PATH := device/welcome/android_device_gamakoo_s25_mini
