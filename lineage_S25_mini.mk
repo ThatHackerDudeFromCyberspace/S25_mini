@@ -6,7 +6,6 @@
 #
 
 # Inherit from those products. Most specific first.
-include $(SRC_TARGET_DIR)/product/treble_common.mk
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 #$(call inherit-product, $(SRC_TARGET_DIR)/product/core_minimal.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
