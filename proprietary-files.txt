@@ -130,8 +130,6 @@ vendor/lib/vendor.mediatek.hardware.power@2.0.so
 vendor/lib/gc2355_mipi_raw_tuning.so
 vendor/lib/vendor.mediatek.hardware.pq@2.3.so
 vendor/lib/vendor.mediatek.hardware.mtkradioex@1.7.so
-vendor/lib/mediadrm/libmockdrmcryptoplugin.so
-vendor/lib/mediadrm/libwvdrmengine.so
 vendor/lib/libmtkcam_pipelinepolicy-smvr.so
 vendor/lib/libmtkcam.featurepipe.vsdof_util.so
 vendor/lib/libutinterface_md.so
