@@ -337,7 +337,6 @@ vendor/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
 vendor/lib/hw/audio.r_submix.mt6739.so
 vendor/lib/hw/hwcomposer.mt6739.so
 vendor/lib/hw/flp.default.so
-vendor/lib/hw/audio.usb.default.so
 vendor/lib/hw/lights.mt6739.so
 vendor/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so
 vendor/lib/hw/libSoftGatekeeper.so
