@@ -52,7 +52,6 @@ vendor/lib/vendor.mediatek.hardware.mms@1.1.so
 vendor/lib/libfeature_rss.so
 vendor/lib/libMtkOmxApeDec.so
 vendor/lib/libgpud.so
-vendor/lib/libhwc2onfbadapter.so
 vendor/lib/libacdk.so
 vendor/lib/libglslcompiler.so
 vendor/lib/libcam.pdtblgen.so
@@ -106,7 +105,6 @@ vendor/lib/libvp8enc_sa.ca7.so
 vendor/lib/libmtkcam_pipeline.so
 vendor/lib/libnvramagentclient.so
 vendor/lib/libmtkcam_featurepolicy.so
-vendor/lib/libnbaio_mono.so
 vendor/lib/libgralloc_extra.so
 vendor/lib/libwapi.so
 vendor/lib/gc2375_mipi_raw_IdxMgr.so
@@ -282,7 +280,6 @@ vendor/lib/libmtkcam_3rdparty.mtk.so
 vendor/lib/libmtkconfigutils.so
 vendor/lib/libmtkcam_streamutils.so
 vendor/lib/libfft_vendor.so
-vendor/lib/libkeystore-engine-wifi-hidl.so
 vendor/lib/libmtkcam_modulefactory_custom.so
 vendor/lib/libcustom_nvram.so
 vendor/lib/lib3a.log.so
@@ -332,7 +329,6 @@ vendor/lib/hw/vendor.mediatek.hardware.camera.lomoeffect@1.0-impl.so
 vendor/lib/hw/android.hardware.gnss@2.0-impl-mediatek.so
 vendor/lib/hw/android.hardware.audio@5.0-impl-mediatek.so
 vendor/lib/hw/vendor.mediatek.hardware.mms@1.5-impl.so
-vendor/lib/hw/android.hardware.thermal@1.0-impl.so
 vendor/lib/hw/android.hardware.vibrator@1.0-impl.so
 vendor/lib/hw/thermal.mt6739.so
 vendor/lib/hw/android.hardware.bluetooth.audio@2.0-impl-mediatek.so
@@ -362,7 +358,6 @@ vendor/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so
 vendor/lib/hw/audio.primary.mt6739.so
 vendor/lib/hw/android.hardware.drm@1.0-impl.so
 vendor/lib/hw/android.hardware.graphics.allocator@2.0-impl.so
-vendor/lib/hw/audio.bluetooth.default.so
 vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl-2.1.so
 vendor/lib/hw/sound_trigger.primary.mt6739.so
 vendor/lib/hw/android.hardware.gatekeeper@1.0-impl.so
@@ -375,7 +370,6 @@ vendor/lib/libvolte_xdmc_shr.so
 vendor/lib/libcamalgo.nr.so
 vendor/lib/libem_sensor_jni.so
 vendor/lib/libmtkcam_modulehelper.so
-vendor/lib/libkeystore-wifi-hidl.so
 vendor/lib/libaudiocomponentenginec.so
 vendor/lib/libhydra.so
 vendor/lib/libmtkcam_debugutils.so
