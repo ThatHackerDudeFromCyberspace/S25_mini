@@ -122,7 +122,6 @@ vendor/lib/vendor.mediatek.hardware.mms@1.2.so
 vendor/lib/libcam.hal3a.v3.nvram.so
 vendor/lib/libem_camera_jni.so
 vendor/lib/libaurisysdemo.so
-vendor/lib/libkeymaster4.so
 vendor/lib/libmtkcam_tuning_utils.so
 vendor/lib/libmtkcam_hwnode.so
 vendor/lib/libcamalgo.fdft.so
