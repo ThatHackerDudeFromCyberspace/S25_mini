@@ -9,7 +9,6 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/welcome/S25_mini/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
-$(call inherit-product-if-exists, vendor/welcome/S25_mini/S25_mini-vendor.mk)
 
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_BUILD_SUPER_PARTITION := true
