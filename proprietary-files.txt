@@ -238,7 +238,6 @@ vendor/lib/libmtkcam_pipelinepolicy_factory.so
 vendor/lib/libmtksysutils.so
 vendor/lib/libmtkcam_fwkutils.so
 vendor/lib/lib3a.af.core.so
-vendor/lib/libwifi-hal.so
 vendor/lib/libmtkcam_pipelinepolicy-security.so
 vendor/lib/libbessound_hd_mtk_vendor.so
 vendor/lib/libmtktinyxml.so
