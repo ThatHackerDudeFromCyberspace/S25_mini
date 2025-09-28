@@ -43,7 +43,6 @@ vendor/lib/libcurl_xcap_md.so
 vendor/lib/libstereoinfoaccessor_vsdof.so
 vendor/lib/libmtkcam_imgbuf.so
 vendor/lib/libminiui.so
-vendor/lib/libtinyxml.so
 vendor/lib/libtinycompress.so
 vendor/lib/libalsautils.so
 vendor/lib/libSonyIMX519PdafLibraryWrapper.so
