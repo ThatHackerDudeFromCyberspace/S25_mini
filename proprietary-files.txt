@@ -159,7 +159,6 @@ vendor/lib/libh264dec_sd.ca7.so
 vendor/lib/libmtkconfig.so
 vendor/lib/vendor.mediatek.hardware.atci@1.0.so
 vendor/lib/libmtkcam_modulefactory_feature.so
-vendor/lib/libsensorndkbridge.so
 vendor/lib/vendor.mediatek.hardware.nvram@1.0.so
 vendor/lib/libmhalImageCodec.so
 vendor/lib/libbluetooth_audio_session_mediatek.so
