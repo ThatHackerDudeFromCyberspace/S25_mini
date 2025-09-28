@@ -100,7 +100,6 @@ vendor/lib/libcam.hal3a.cctsvr.so
 vendor/lib/libDR.so
 vendor/lib/libjpeg-alpha_vendor.so
 vendor/lib/libSonyIMX386PdafLibrary.so
-vendor/lib/libvorbisidec.so
 vendor/lib/vendor.mediatek.hardware.mtkradioex@1.6.so
 vendor/lib/libSonyIMX230PdafLibraryWrapper.so
 vendor/lib/vendor.mediatek.hardware.mtkradioex@1.2.so
@@ -144,7 +143,6 @@ vendor/lib/vendor.mediatek.hardware.mtkradioex@1.7.so
 vendor/lib/mediadrm/libmockdrmcryptoplugin.so
 vendor/lib/mediadrm/libwvdrmengine.so
 vendor/lib/libmtkcam_pipelinepolicy-smvr.so
-vendor/lib/android.hardware.audio.common-util.so
 vendor/lib/libmtkcam.featurepipe.vsdof_util.so
 vendor/lib/libutinterface_md.so
 vendor/lib/libgeofence.so
@@ -168,12 +166,10 @@ vendor/lib/vendor.mediatek.hardware.pq@2.0.so
 vendor/lib/vendor.mediatek.hardware.lbs@1.0.so
 vendor/lib/libSonyIMX386PdafLibraryWrapper.so
 vendor/lib/libcam.hal3a.log.so
-vendor/lib/android.hardware.audio.common@5.0-util.so
 vendor/lib/libpq_prot.so
 vendor/lib/libh264dec_sd.ca7.so
 vendor/lib/libmtkconfig.so
 vendor/lib/vendor.mediatek.hardware.atci@1.0.so
-vendor/lib/libopus.so
 vendor/lib/libmtkcam_modulefactory_feature.so
 vendor/lib/libsensorndkbridge.so
 vendor/lib/vendor.mediatek.hardware.nvram@1.0.so
@@ -202,7 +198,6 @@ vendor/lib/egl/libGLESv1_CM_mtk.so
 vendor/lib/libmtkcam_prerelease.so
 vendor/lib/libvcodecdrv.so
 vendor/lib/librgbwlightsensor.so
-vendor/lib/libpixelflinger.so
 vendor/lib/libmtkcam_pipelinemodel_utils.so
 vendor/lib/libMtkOmxMp3Dec.so
 vendor/lib/libmtkcam_pipelinemodel.so
@@ -218,7 +213,6 @@ vendor/lib/libmtcloader.so
 vendor/lib/libMtkSpeechEnh.so
 vendor/lib/libusc.so
 vendor/lib/libmtkcam_modulefactory_drv.so
-vendor/lib/libvpx.so
 vendor/lib/libmtk-ril.so
 vendor/lib/libpowerhal.so
 vendor/lib/libmtkcam_sysutils.so
@@ -330,7 +324,6 @@ vendor/lib/libmtkhardware_legacy.so
 vendor/lib/libpq_cust_base.so
 vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so
 vendor/lib/lib3a.flash.so
-vendor/lib/libkeymaster4support.so
 vendor/lib/vendor.mediatek.hardware.engineermode@1.1.so
 vendor/lib/libvp8dec_sa.ca7.so
 vendor/lib/libcamalgo.so
@@ -396,7 +389,6 @@ vendor/lib/libaudiocomponentenginec.so
 vendor/lib/libhydra.so
 vendor/lib/libmtkcam_debugutils.so
 vendor/lib/libgpu_aux.so
-vendor/lib/libeffectsconfig.so
 vendor/lib/libbluetooth_mtk.so
 
 # This is every binary it has
