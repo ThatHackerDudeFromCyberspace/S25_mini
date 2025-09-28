@@ -613,11 +613,9 @@ vendor/etc/audio_param/RecordVolUI_AudioParam.xml
 vendor/etc/audio_param/PlaybackDRC_ParamUnitDesc.xml
 vendor/etc/audio_param/RingbackVol_ParamUnitDesc.xml
 vendor/etc/audio_param/VoIPVolUI_ParamUnitDesc.xml
-vendor/etc/aurisys_param
 vendor/etc/aurisys_param/Speech_AudioParam.xml
 
 # Vendor firmwares
-vendor/firmware
 vendor/firmware/fm_cust.cfg
 vendor/firmware/ROMv2_lm_patch_1_0_hdr.bin
 vendor/firmware/mt6627_fm_v1_patch.bin
@@ -694,7 +692,7 @@ system/lib/libvcodec_cap.so
 system/lib/libvcodec_capenc.so
 system/lib/libvt_avsync.so
 system/lib/vendor.mediatek.hardware.videotelephony@1.0.so
-system_ext/priv-app/ImsService/ImsService.apk
+system/priv-app/ImsService/ImsService.apk
 
 # Keymaster
 vendor/etc/init/android.hardware.keymaster@4.0-service.rc
