@@ -6,3 +6,10 @@
 #
 
 LOCAL_PATH := device/welcome/S25_mini
+
+# Common init scripts
+PRODUCT_PACKAGES += \
+    fstab.mt6739
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/etc/fstab.mt6739:$(TARGET_COPY_OUT_RAMDISK)/fstab.mt6739
