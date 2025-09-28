@@ -43,8 +43,6 @@ vendor/lib/libcurl_xcap_md.so
 vendor/lib/libstereoinfoaccessor_vsdof.so
 vendor/lib/libmtkcam_imgbuf.so
 vendor/lib/libminiui.so
-vendor/lib/libtinycompress.so
-vendor/lib/libalsautils.so
 vendor/lib/libSonyIMX519PdafLibraryWrapper.so
 vendor/lib/libmtkcam.logicalmodule.so
 vendor/lib/libBnMtkCodec.so
@@ -60,7 +58,6 @@ vendor/lib/libglslcompiler.so
 vendor/lib/libcam.pdtblgen.so
 vendor/lib/libaudiocustparam_vendor.so
 vendor/lib/libvt_custom.so
-vendor/lib/libbt-vendor.so
 vendor/lib/libmtkcam_3rdparty.customer.so
 vendor/lib/libmnetlink_v104.so
 vendor/lib/libbwc.so
@@ -93,7 +90,6 @@ vendor/lib/libstorage_otp.so
 vendor/lib/libcamalgo.fsc.so
 vendor/lib/libspeechparser_vendor.so
 vendor/lib/libfeature.face.so
-vendor/lib/libwpa_client.so
 vendor/lib/vendor.mediatek.hardware.mtkradioex@1.3.so
 vendor/lib/libcam.hal3a.cctsvr.so
 vendor/lib/libDR.so
@@ -119,7 +115,6 @@ vendor/lib/libvp9dec_sa.ca7.so
 vendor/lib/libfile_op.so
 vendor/lib/libnvram_platform.so
 vendor/lib/gc2355_mipi_raw_IdxMgr.so
-vendor/lib/libdrm.so
 vendor/lib/vendor.mediatek.hardware.camera.atms@1.0.so
 vendor/lib/libwifitest.so
 vendor/lib/libdirect-coredump.so
@@ -131,7 +126,6 @@ vendor/lib/libem_camera_jni.so
 vendor/lib/libaurisysdemo.so
 vendor/lib/libkeymaster4.so
 vendor/lib/libmtkcam_tuning_utils.so
-vendor/lib/libhwc2on1adapter.so
 vendor/lib/libmtkcam_hwnode.so
 vendor/lib/libcamalgo.fdft.so
 vendor/lib/libmtkutils.so
@@ -333,7 +327,6 @@ vendor/lib/libmtkcam_hwutils.so
 vendor/lib/libmtkcam_metadata.so
 vendor/lib/gc2375_mipi_raw_tuning.so
 vendor/lib/hw/audio.usb.mt6739.so
-vendor/lib/hw/android.hardware.graphics.composer@2.1-impl.so
 vendor/lib/hw/gralloc.mt6739.so
 vendor/lib/hw/vendor.mediatek.hardware.camera.lomoeffect@1.0-impl.so
 vendor/lib/hw/android.hardware.gnss@2.0-impl-mediatek.so
@@ -346,7 +339,6 @@ vendor/lib/hw/android.hardware.bluetooth.audio@2.0-impl-mediatek.so
 vendor/lib/hw/vendor.mediatek.hardware.mtkpower@1.0-impl.so
 vendor/lib/hw/android.hardware.memtrack@1.0-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so
-vendor/lib/hw/sensors.mt6739.so
 vendor/lib/hw/android.hardware.camera.provider@2.4-impl-mediatek.so
 vendor/lib/hw/audio_policy.stub.so
 vendor/lib/hw/vendor.mediatek.hardware.power@2.1-impl.so
