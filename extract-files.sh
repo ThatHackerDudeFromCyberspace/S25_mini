@@ -18,8 +18,8 @@
 
 set -e
 
-DEVICE=**** FILL IN DEVICE NAME ****
-VENDOR=*** FILL IN VENDOR ****
+DEVICE="S25_mini"
+VENDOR="welcome"
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
