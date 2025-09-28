@@ -1,6 +1,5 @@
 # This is just every library the vendor partition has lol
 vendor/lib/libh264dec_sa.ca7.so
-vendor/lib/libstagefright_flacdec.so
 vendor/lib/libcamalgo.lmv.so
 vendor/lib/libvc1dec_sa.ca7.so
 vendor/lib/vendor.mediatek.hardware.camera.security@1.0.so
