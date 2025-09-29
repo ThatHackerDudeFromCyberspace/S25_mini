@@ -88,8 +88,8 @@ PRODUCT_PACKAGES += \
 
 
 # FM Radio
-PRODUCT_PACKAGES += \
-    FMRadio
+#PRODUCT_PACKAGES += \
+#    FMRadio
 
 
 # IMS
