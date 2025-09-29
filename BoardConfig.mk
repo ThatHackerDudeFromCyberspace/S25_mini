@@ -151,4 +151,12 @@ BOARD_AVB_RECOVERY_ROLLBACK_INDEX_LOCATION := 1
 #PLATFORM_VERSION := 16.1.0
 
 # SELinux
-include $(DEVICE_PATH)/android_device_mediatek_sepolicy/sepolicy.mk
+# Board specific SELinux policy variable definitions
+BOARD_SEPOLICY_DIRS := \
+        $(DEVICE_PATH)/android_device_mediatek_sepolicy/non_plat
+
+BOARD_PLAT_PUBLIC_SEPOLICY_DIR := \
+        $(DEVICE_PATH)/android_device_mediatek_sepolicy/plat_public
+
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR := \
+        $(DEVICE_PATH)/android_device_mediatek_sepolicy/plat_private
