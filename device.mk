@@ -8,7 +8,7 @@
 LOCAL_PATH := device/welcome/S25_mini
 
 # Set shipping API level
-PRODUCT_SHIPPING_API_LEVEL := 29
+PRODUCT_SHIPPING_API_LEVEL := 28
 
 # Setup dalvik vm configs
 # Same as phone-xhdpi-6144-dalvik-heap.mk 
