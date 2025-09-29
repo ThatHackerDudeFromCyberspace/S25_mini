@@ -590,14 +590,14 @@ vendor/etc/slp_conf
 # IMS
 system/bin/vtservice
 system/etc/init/init.vtservice.rc
-#system/framework/mediatek-common.jar
-#system/framework/mediatek-framework.jar
-#system/framework/mediatek-ims-base.jar
-#system/framework/mediatek-ims-common.jar
-#system/framework/mediatek-ims-extension-plugin.jar
-#system/framework/mediatek-telecom-common.jar
-#system/framework/mediatek-telephony-base.jar
-#system/framework/mediatek-telephony-common.jar
+system/framework/mediatek-common.jar
+system/framework/mediatek-framework.jar
+system/framework/mediatek-ims-base.jar
+system/framework/mediatek-ims-common.jar
+system/framework/mediatek-ims-extension-plugin.jar
+system/framework/mediatek-telecom-common.jar
+system/framework/mediatek-telephony-base.jar
+system/framework/mediatek-telephony-common.jar
 
 system/lib/libcomutils.so
 system/lib/libimsma.so;DISABLE_CHECKELF
