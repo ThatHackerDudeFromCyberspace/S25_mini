@@ -7,6 +7,9 @@
 
 LOCAL_PATH := device/welcome/S25_mini
 
+# Set shipping API level
+$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_q.mk)
+
 # Setup dalvik vm configs
 # Same as phone-xhdpi-6144-dalvik-heap.mk 
 # @TODO: Investigate perf
