@@ -676,7 +676,4 @@ vendor/etc/init/ipsec_mon.rc
 vendor/etc/init/hw/init.mt6739.usb.rc
 
 # Seems relevant
-vendor/etc/init/hw/init.mt6739.rcb.rc
-
-# Seems relevant
 vendor/etc/init/hw/init.mt6739.rc
