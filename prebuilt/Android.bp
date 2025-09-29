@@ -1,0 +1,87 @@
+java_import {
+    name: "mediatek-common-jar",
+    jars: ["mediatek-common.jar"]
+}
+
+java_library {
+    name: "mediatek-common",
+    static_libs: ["mediatek-common-jar"],
+    installable: true
+}
+
+java_import {
+    name: "mediatek-framework-jar",
+    jars: ["mediatek-framework.jar"]
+}
+
+java_library {
+    name: "mediatek-framework",
+    static_libs: ["mediatek-framework-jar"],
+    installable: true
+}
+
+java_import {
+    name: "mediatek-ims-base-jar",
+    jars: ["mediatek-ims-base.jar"]
+}
+
+java_library {
+    name: "mediatek-ims-base",
+    static_libs: ["mediatek-ims-base-jar"],
+    installable: true
+}
+
+java_import {
+    name: "mediatek-ims-common-jar",
+    jars: ["mediatek-ims-common.jar"]
+}
+
+java_library {
+    name: "mediatek-ims-common",
+    static_libs: ["mediatek-ims-common-jar"],
+    installable: true
+}
+
+java_import {
+    name: "mediatek-ims-extension-plugin-jar",
+    jars: ["mediatek-ims-extension-plugin.jar"]
+}
+
+java_library {
+    name: "mediatek-ims-extension-plugin",
+    static_libs: ["mediatek-ims-extension-plugin-jar"],
+    installable: true
+}
+
+java_import {
+    name: "mediatek-telecom-common-jar",
+    jars: ["mediatek-telecom-common.jar"]
+}
+
+java_library {
+    name: "mediatek-telecom-common",
+    static_libs: ["mediatek-telecom-common-jar"],
+    installable: true
+}
+
+java_import {
+    name: "mediatek-telephony-base-jar",
+    jars: ["mediatek-telephony-base.jar"]
+}
+
+java_library {
+    name: "mediatek-telephony-base",
+    static_libs: ["mediatek-telephony-base-jar"],
+    installable: true
+}
+
+java_import {
+    name: "mediatek-telephony-common-jar",
+    jars: ["mediatek-telephony-common.jar"]
+}
+
+java_library {
+    name: "mediatek-telephony-common",
+    static_libs: ["mediatek-telephony-common-jar"],
+    installable: true
+}
