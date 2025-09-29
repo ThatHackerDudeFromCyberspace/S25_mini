@@ -8,7 +8,7 @@
 LOCAL_PATH := device/welcome/S25_mini
 
 # Set shipping API level
-$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_q.mk)
+PRODUCT_SHIPPING_API_LEVEL := 29
 
 # Setup dalvik vm configs
 # Same as phone-xhdpi-6144-dalvik-heap.mk 
@@ -156,9 +156,6 @@ PRODUCT_PACKAGES += \
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@2.0-subhal-impl-1.0:64
-
-PRODUCT_SHIPPING_API_LEVEL := 29
-
 
 # Thermal
 PRODUCT_PACKAGES += \
