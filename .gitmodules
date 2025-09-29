@@ -1,0 +1,3 @@
+[submodule "android_device_mediatek_sepolicy"]
+	path = android_device_mediatek_sepolicy
+	url = https://github.com/LineageOS/android_device_mediatek_sepolicy

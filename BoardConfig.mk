@@ -151,4 +151,4 @@ BOARD_AVB_RECOVERY_ROLLBACK_INDEX_LOCATION := 1
 #PLATFORM_VERSION := 16.1.0
 
 # SELinux
-include device/mediatek/sepolicy/sepolicy.mk
+include $(DEVICE_PATH)/android_device_mediatek_sepolicy/sepolicy.mk
