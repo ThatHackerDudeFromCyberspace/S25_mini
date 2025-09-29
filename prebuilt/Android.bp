@@ -1,6 +1,6 @@
 java_import {
     name: "mediatek-common-jar",
-    jars: ["mediatek-common.jar"]
+    jars: ["framework/mediatek-common.jar"]
 }
 
 java_library {
@@ -11,7 +11,7 @@ java_library {
 
 java_import {
     name: "mediatek-framework-jar",
-    jars: ["mediatek-framework.jar"]
+    jars: ["framework/mediatek-framework.jar"]
 }
 
 java_library {
@@ -22,7 +22,7 @@ java_library {
 
 java_import {
     name: "mediatek-ims-base-jar",
-    jars: ["mediatek-ims-base.jar"]
+    jars: ["framework/mediatek-ims-base.jar"]
 }
 
 java_library {
@@ -33,7 +33,7 @@ java_library {
 
 java_import {
     name: "mediatek-ims-common-jar",
-    jars: ["mediatek-ims-common.jar"]
+    jars: ["framework/mediatek-ims-common.jar"]
 }
 
 java_library {
@@ -44,7 +44,7 @@ java_library {
 
 java_import {
     name: "mediatek-ims-extension-plugin-jar",
-    jars: ["mediatek-ims-extension-plugin.jar"]
+    jars: ["framework/mediatek-ims-extension-plugin.jar"]
 }
 
 java_library {
@@ -55,7 +55,7 @@ java_library {
 
 java_import {
     name: "mediatek-telecom-common-jar",
-    jars: ["mediatek-telecom-common.jar"]
+    jars: ["framework/mediatek-telecom-common.jar"]
 }
 
 java_library {
@@ -66,7 +66,7 @@ java_library {
 
 java_import {
     name: "mediatek-telephony-base-jar",
-    jars: ["mediatek-telephony-base.jar"]
+    jars: ["framework/mediatek-telephony-base.jar"]
 }
 
 java_library {
@@ -77,7 +77,7 @@ java_library {
 
 java_import {
     name: "mediatek-telephony-common-jar",
-    jars: ["mediatek-telephony-common.jar"]
+    jars: ["framework/mediatek-telephony-common.jar"]
 }
 
 java_library {
