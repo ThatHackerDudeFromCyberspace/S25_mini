@@ -614,10 +614,6 @@ system/lib/libvcodec_capenc.so
 system/lib/libvt_avsync.so
 system/lib/vendor.mediatek.hardware.videotelephony@1.0.so
 system/priv-app/ImsService/ImsService.apk
-
-# OpenGL
-system/lib/egl/libGLES_android.so
-
 # Keymaster
 
 # Tether Offload
