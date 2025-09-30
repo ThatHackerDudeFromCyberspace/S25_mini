@@ -1,3 +1,8 @@
+###
+# Fixed by Hackerdude
+# Copy to: build/make/tools/extract_kernel.py
+###
+
 #!/usr/bin/env python
 #
 # Copyright (C) 2018 The Android Open Source Project
