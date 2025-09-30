@@ -192,7 +192,7 @@ def main():
   if args.output_version is not None:
     o = decompress_dump(dump_version, input_bytes)
     if o:
-      args.output_version.write(bytes(o, 'utf8'))
+      args.output_version.write(o.encode('utf8'))
     else:
       sys.stderr.write(
           "Cannot extract kernel versions in {}".format(args.input.name))
