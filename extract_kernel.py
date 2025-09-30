@@ -44,7 +44,7 @@ LINUX_BANNER_REGEX = LINUX_BANNER_PREFIX.decode() + \
 
 
 def get_version(input_bytes, start_idx):
-  null_idx = input_bytes.find('\x00', start_idx)
+  null_idx = input_bytes.find(b'\x00', start_idx)
   if null_idx < 0:
     return None
   try:
@@ -186,7 +186,7 @@ def main():
   if args.output_version is not None:
     o = decompress_dump(dump_version, input_bytes)
     if o:
-      args.output_version.write(o)
+      args.output_version.write(bytes(o, 'utf8'))
     else:
       sys.stderr.write(
           "Cannot extract kernel versions in {}".format(args.input.name))
