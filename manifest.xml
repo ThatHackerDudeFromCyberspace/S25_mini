@@ -18,6 +18,7 @@
         manifest.xml
 -->
 <manifest version="1.0" type="device" target-level="4">
+    <kernel version="4.14.141" />
     <hal format="hidl">
         <name>android.hardware.audio</name>
         <transport>hwbinder</transport>
