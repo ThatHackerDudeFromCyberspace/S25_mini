@@ -175,17 +175,5 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/wifi/,$(TARGET_COPY_OUT_VENDOR)/etc/wifi)
 
-# GPU
-PRODUCT_PROPERTY_OVERRIDES += ro.hardware.egl=mtk
-PRODUCT_PROPERTY_OVERRIDES += ro.opengles.version=196610
-PRODUCT_PACKAGES += libGLES_meow
-PRODUCT_PACKAGES += libGLESv2_mtk
-PRODUCT_PACKAGES += libGLESv1_CM_mtk
-PRODUCT_PACKAGES += libEGL_mtk
-PRODUCT_PACKAGES += libmemtrack_GL
-PRODUCT_PACKAGES += libglslcompiler
-PRODUCT_PACKAGES += android.hardware.graphics.allocator@2.0-impl
-PRODUCT_PACKAGES += android.hardware.graphics.mapper@2.0-impl-2.1
-
 # Copy proprietary files
 $(call inherit-product-if-exists, vendor/welcome/S25_mini/S25_mini-vendor.mk)
