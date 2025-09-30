@@ -39,7 +39,7 @@ COMPRESSION_ALGO = (
 # "Linux version " UTS_RELEASE " (" LINUX_COMPILE_BY "@"
 # LINUX_COMPILE_HOST ") (" LINUX_COMPILER ") " UTS_VERSION "\n";
 LINUX_BANNER_PREFIX = b'Linux version '
-LINUX_BANNER_REGEX = LINUX_BANNER_PREFIX + \
+LINUX_BANNER_REGEX = LINUX_BANNER_PREFIX.decode() + \
     r'([0-9]+[.][0-9]+[.][0-9]+).* \(.*@.*\) \(.*\) .*\n'
 
 
