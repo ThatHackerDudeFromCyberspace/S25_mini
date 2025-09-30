@@ -105,7 +105,7 @@ def try_decompress(cmd, search_bytes, input_bytes):
   if idx < 0:
     return None
 
-  idx = 0
+  #idx = 0 # WHAT IDIOT DID THIS
   sp = subprocess.Popen(cmd, stdin=subprocess.PIPE, stdout=subprocess.PIPE,
                         stderr=subprocess.PIPE)
   o, _ = sp.communicate(input=input_bytes[idx:])
