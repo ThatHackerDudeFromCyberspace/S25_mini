@@ -4,16 +4,6 @@
 -->
 <manifest version="1.0" type="framework">
     <hal format="hidl">
-        <name>android.frameworks.schedulerservice</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>ISchedulingPolicyService</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::ISchedulingPolicyService/default</fqname>
-    </hal>
-    <hal format="hidl">
         <name>android.frameworks.sensorservice</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
