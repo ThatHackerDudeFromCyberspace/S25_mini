@@ -579,6 +579,7 @@ vendor/etc/init/vendor.mediatek.hardware.mtkcodecservice@1.1-service.rc
 vendor/etc/init/mtkrild.rc
 vendor/etc/init/mtk_agpsd_p.rc
 vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc
+vendor/etc/init/hw/init.mt6739.rc
 
 # Fuelgage
 vendor/etc/init/fuelgauged_init.rc

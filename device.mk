@@ -94,6 +94,9 @@ PRODUCT_PACKAGES += \
 #PRODUCT_PACKAGES += \
 #    FMRadio
 
+# Camera
+PRODUCT_PACKAGES += \
+    Aperture
 
 # IMS
 PRODUCT_BOOT_JARS += \
@@ -149,6 +152,41 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.mtkpower@1.2-service.stub \
     libmtkperf_client
 
+# USB
+PRODUCT_PACKAGES += \
+    android.hardware.usb@1.0-service \
+    android.hardware.usb-service.mediatek
+
+# GPS
+PRODUCT_PACKAGES += \
+    android.hardware.gnss@1.1.vendor \
+    android.hardware.gnss@2.1.vendor
+
+# Gatekeeper
+PRODUCT_PACKAGES += \
+    android.hardware.gatekeeper@1.0-service \
+    android.hardware.gatekeeper@1.0-impl
+
+# HIDL
+PRODUCT_PACKAGES += \
+    android.hidl.allocator@1.0 \
+    android.hidl.allocator@1.0.vendor \
+    android.hidl.memory.block@1.0 \
+    android.hidl.memory.block@1.0.vendor \
+    libunwindstack.vendor \
+    android.hidl.base@1.0 \
+    android.hidl.manager@1.0 \
+    libhidltransport \
+    libhidltransport.vendor \
+    libhwbinder \
+    libhwbinder.vendor
+
+# Vendor Init
+PRODUCT_PACKAGES += \
+    init.mt6739.rc \
+    init.mt6739.usb.rc \
+    fstab.mt6739
+
 # RIL
 PRODUCT_PACKAGES += \
     android.hardware.radio-service.compat
@@ -172,6 +210,10 @@ PRODUCT_PACKAGES += \
     hostapd \
     libwifi-hal-wrapper \
     android.hardware.wifi-service
+
+# Keystore
+PRODUCT_PACKAGES += \
+    android.hardware.keymaster@4.1.vendor
 
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/wifi/,$(TARGET_COPY_OUT_VENDOR)/etc/wifi)
