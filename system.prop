@@ -1,3 +1,9 @@
+ro.secure=0
+ro.debuggable=1
+persist.sys.usb.config=adb
+ro.adb.secure=0
+
+
 ro.config.media_vol_default=12
 ro.config.vc_call_vol_default=6
 ro.wifi.channels=
@@ -26,19 +32,14 @@ wifi.direct.interface=p2p0
 #dalvik.vm.heapgrowthlimit=256m
 #dalvik.vm.heapsize=512m
 
-# USB MTP WHQL
-ro.sys.usb.mtp.whql.enable=0
-
 # Power off opt in IPO
 sys.ipo.pwrdncap=2
 
+# USB
+ro.sys.usb.mtp.whql.enable=0
 ro.sys.usb.storage.type=mtp
-
-# USB BICR function
 ro.sys.usb.bicr=no
-
-# USB Charge only function
-ro.sys.usb.charging.only=yes
+ro.sys.usb.charging.only=no
 
 # audio
 ro.camera.sound.forced=0
