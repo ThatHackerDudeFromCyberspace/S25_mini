@@ -19,16 +19,6 @@
 -->
 <manifest version="1.0" type="device" target-level="4">
     <hal format="hidl">
-        <name>android.frameworks.displayservice</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IDisplayService</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::IDisplayService/default</fqname>
-    </hal>
-    <hal format="hidl">
         <name>android.hardware.audio</name>
         <transport>hwbinder</transport>
         <version>5.0</version>
