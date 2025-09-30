@@ -8,3 +8,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 ```
+
+This device tree contains components from:
+https://github.com/OpenWatchProject/android_device_mediatek/
+https://github.com/LineageOS/android_device_xiaomi_mt6785-common
+https://github.com/LineageOS/android_device_xiaomi_earth
+https://github.com/jmpfbmx/android_device_xiaomi_certus

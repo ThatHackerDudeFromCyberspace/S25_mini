@@ -20,6 +20,11 @@ TARGET_CPU_VARIANT_RUNTIME := cortex-a53
 
 TARGET_USES_64_BIT_BINDER := true
 
+# Taken from https://github.com/OpenWatchProject/android_device_mediatek/blob/822708b4e52c7fe0da518e13cd39615fb0bceea6/mt6739/BoardConfig.mk
+ENABLE_CPUSETS := true
+ENABLE_SCHEDBOOST := true
+TARGET_CPU_SMP := true
+
 # APEX
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
@@ -125,6 +130,7 @@ TARGET_USERIMAGES_USE_F2FS := true
 
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
+SIM_COUNT := 2
 
 
 # Wi-Fi
