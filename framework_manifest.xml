@@ -3,9 +3,4 @@
         manifest.xml
 -->
 <manifest version="1.0" type="framework">
-    <hal format="native">
-        <name>netutils-wrapper</name>
-        <transport></transport>
-        <version>1.0</version>
-    </hal>
 </manifest>
