@@ -181,12 +181,6 @@ PRODUCT_PACKAGES += \
     libhwbinder \
     libhwbinder.vendor
 
-# Vendor Init
-PRODUCT_PACKAGES += \
-    init.mt6739.rc \
-    init.mt6739.usb.rc \
-    fstab.mt6739
-
 # RIL
 PRODUCT_PACKAGES += \
     android.hardware.radio-service.compat
