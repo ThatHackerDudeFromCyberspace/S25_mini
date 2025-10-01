@@ -72,9 +72,7 @@ PRODUCT_PACKAGES += \
     liblz4 \
     libminui \
     libnl \
-    libprotobuf-cpp-full \
-    libhidltransport \
-    libhwbinder
+    libprotobuf-cpp-full
 
 # Audio
 PRODUCT_PACKAGES += \
