@@ -56,8 +56,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/mtk-kpd.kl:system/usr/keylayout/mtk-kpd.kl
 
 # Important stuff
+ENABLE_LIBDRM := true
 PRODUCT_PACKAGES += \
-    libdrm
+    libdrm \
+    libdrm.vendor
 
 # Audio
 PRODUCT_PACKAGES += \
