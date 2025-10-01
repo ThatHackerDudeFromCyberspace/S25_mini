@@ -25,7 +25,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.mt6739:$(TARGET_COPY_OUT_RAMDISK)/fstab.mt6739 \
 	$(LOCAL_PATH)/rootdir/etc/fstab.mt6739:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.mt6739 \
-    $(LOCAL_PATH)/rootdir/etc/init.logging.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.logging.rc
+    $(LOCAL_PATH)/rootdir/etc/init.logging.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.logging.rc \
+    $(LOCAL_PATH)/rootdir/etc/init.mt6739.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.mt6739.rc
 
 # Audio policy configuration
 USE_XML_AUDIO_POLICY_CONF := 1
