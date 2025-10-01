@@ -21,13 +21,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heapminfree=8m \
     dalvik.vm.heapmaxfree=32m
 
-# Common init scripts
-PRODUCT_PACKAGES += \
-    fstab.mt6739
-
+# Ini stuff (we have other init files handled by vendor)
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.mt6739:$(TARGET_COPY_OUT_RAMDISK)/fstab.mt6739 \
-	$(LOCAL_PATH)/rootdir/etc/fstab.mt6739:/vendor/etc/fstab.mt6739
+	$(LOCAL_PATH)/rootdir/etc/fstab.mt6739:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.mt6739 \
+    $(LOCAL_PATH)/rootdir/etc/init.logging.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.logging.rc
 
 # Audio policy configuration
 USE_XML_AUDIO_POLICY_CONF := 1
