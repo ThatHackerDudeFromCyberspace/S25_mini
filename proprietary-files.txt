@@ -630,7 +630,6 @@ vendor/etc/init/vendor.mediatek.hardware.gpu@1.0-service.rc
 vendor/etc/init/init.wod.rc
 vendor/etc/init/loghidlvendorservice.rc
 vendor/etc/init/modemdbfilter_service.rc
-vendor/etc/init/hw
 vendor/etc/init/hw/init.project.rc
 vendor/etc/init/hw/init.aee.rc
 vendor/etc/init/hw/meta_init.rc
