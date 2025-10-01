@@ -59,16 +59,19 @@ PRODUCT_COPY_FILES += \
 ENABLE_LIBDRM := true
 PRODUCT_PACKAGES += \
     libdrm \
-    libdrm.vendor
+    libdrm.vendor \
+    libsensorndkbridge.vendor
 
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio.common-util.vendor \
+    android.hardware.audio.common@5.0-util.vendor \
     android.hardware.audio.common@5.0.vendor \
     android.hardware.audio.common@6.0-util.vendor \
     android.hardware.audio.common@6.0.vendor \
     android.hardware.audio.common@7.0-enums.vendor \
     android.hardware.audio.common@7.0-util.vendor \
+    android.hardware.audio@5.0.vendor \
     android.hardware.audio@6.0.vendor \
     android.hardware.audio@7.0-util.vendor \
     android.hardware.audio@7.0.vendor \
@@ -98,6 +101,9 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.1-service \
     android.hardware.memtrack-service.mediatek-mali
 
+# Stagefright
+PRODUCT_PACKAGES += \
+    libstagefrighthw
 
 PRODUCT_PACKAGES += \
     fastbootd
