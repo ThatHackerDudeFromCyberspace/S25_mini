@@ -3,5 +3,4 @@
         manifest.xml
 -->
 <manifest version="1.0" type="framework">
-    <kernel version="4.14.141" />
 </manifest>
