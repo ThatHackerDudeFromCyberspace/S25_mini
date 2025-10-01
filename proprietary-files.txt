@@ -775,4 +775,3 @@ system/lib/libmtkperf_client.so
 system/lib/libmtkbootanimation.so
 system/lib/libmtkshifter.so
 system/lib/libmtkavenhancements.so
-system/app/MtkBluetooth/lib/arm/libmtkbluetooth_jni.so
