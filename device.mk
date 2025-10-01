@@ -63,13 +63,17 @@ PRODUCT_PACKAGES += \
 
 # Audio
 PRODUCT_PACKAGES += \
-    android.hardware.audio@7.0-impl:32 \
-    android.hardware.audio.effect@7.0-impl:32 \
-    android.hardware.audio.service \
-    android.hardware.audio.common-util \
-    android.hardware.audio.common@2.0-util \
-    android.hardware.audio.common@4.0-util \
-    android.hardware.audio.common@5.0-util
+    android.hardware.audio.common-util.vendor \
+    android.hardware.audio.common@5.0.vendor \
+    android.hardware.audio.common@6.0-util.vendor \
+    android.hardware.audio.common@6.0.vendor \
+    android.hardware.audio.common@7.0-enums.vendor \
+    android.hardware.audio.common@7.0-util.vendor \
+    android.hardware.audio@6.0.vendor \
+    android.hardware.audio@7.0-util.vendor \
+    android.hardware.audio@7.0.vendor \
+    android.hardware.audio.effect@7.0.vendor \
+    android.hardware.audio.effect@7.0-impl:32
 
 PRODUCT_PACKAGES += \
     audio.bluetooth.default:32 \
@@ -90,6 +94,7 @@ PRODUCT_COPY_FILES += \
 
 # Display
 PRODUCT_PACKAGES += \
+    android.hardware.graphics.composer@2.1-impl \
     android.hardware.graphics.composer@2.1-service \
     android.hardware.memtrack-service.mediatek-mali
 
@@ -163,7 +168,8 @@ PRODUCT_PACKAGES += \
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service \
-    android.hardware.usb-service.mediatek
+    android.hardware.usb-service.mediatek \
+    android.hardware.usb.gadget-service.mediatek
 
 # GPS
 PRODUCT_PACKAGES += \
