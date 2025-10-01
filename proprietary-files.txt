@@ -722,3 +722,6 @@ vendor/etc/init/ipsec_mon.rc
 # USB
 vendor/etc/init/android.hardware.usb@1.1-service-mediatek.rc
 vendor/bin/hw/android.hardware.usb@1.1-service-mediatek
+
+# uevent
+vendor/ueventd.rc
