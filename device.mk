@@ -260,5 +260,4 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-full
 
 # Copy proprietary files
-BUILD_BROKEN_DUP_RULES := true # YEAH DAMN YOU ANDROID!!!!
 $(call inherit-product-if-exists, vendor/welcome/S25_mini/S25_mini-vendor.mk)
