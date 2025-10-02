@@ -34,14 +34,12 @@ USE_XML_AUDIO_POLICY_CONF := 1
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage \
-#    $(LOCAL_PATH)/overlay
+    $(LOCAL_PATH)/overlay-lineage
 
 # Boot
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl \
     android.hardware.boot@1.0-impl.recovery \
-    android.hardware.boot@1.0-impl.vendor \
     android.hardware.boot@1.0-service
 
 # Input
@@ -214,8 +212,8 @@ PRODUCT_PACKAGES += \
 
 # Health
 PRODUCT_PACKAGES += \
-    android.hardware.health@1.0-impl \
-    android.hardware.health@1.0-service
+    android.hardware.health@2.0-impl \
+    android.hardware.health@2.0-service
 
 # Vibrator
 $(call soong_config_set, vibrator, vibratortargets, vibratoraidlV2target)
