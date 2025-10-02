@@ -907,7 +907,6 @@ system/etc/usb_audio_policy_configuration.xml
 system/etc/hearing_aid_audio_policy_configuration.xml
 system/etc/default_volume_tables.xml
 system/etc/audio_policy_configuration.xml
-vendor/lib/libtinycompress.so
 
 # Gatekeeper
 vendor/lib/hw/gatekeeper.default.so
