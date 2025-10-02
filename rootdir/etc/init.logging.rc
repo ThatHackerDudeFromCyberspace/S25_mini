@@ -5,15 +5,6 @@ service logger /system/bin/logcat -b all -D -f /metadata/boot_log.txt
     disabled
     oneshot
 
-on post-fs-data
-    start logger
-
-on early-init
-    start logger
-
-on boot
-    start logger
-
 service debug_dmesg /system/bin/sh -c "dmesg -w > /metadata/boot_dmesg.txt"
     class main
     user root
@@ -21,5 +12,14 @@ service debug_dmesg /system/bin/sh -c "dmesg -w > /metadata/boot_dmesg.txt"
     disabled
     oneshot
 
-on charger
+on post-fs-data
+    start logger
+    start debug_dmesg
+
+on early-init
+    start logger
+    start debug_dmesg
+
+on boot
+    start logger
     start debug_dmesg
