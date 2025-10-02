@@ -807,8 +807,8 @@ system/etc/r_submix_audio_policy_configuration.xml
 system/etc/usb_audio_policy_configuration.xml
 system/etc/hearing_aid_audio_policy_configuration.xml
 system/etc/audio_policy_configuration.xml
-system/system/etc/audio_policy_volumes.xml
-system/system/etc/default_volume_tables.xml
+system/etc/audio_policy_volumes.xml
+system/etc/default_volume_tables.xml
 
 # Gatekeeper
 vendor/lib/hw/gatekeeper.default.so
