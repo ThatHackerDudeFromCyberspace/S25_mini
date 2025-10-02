@@ -66,7 +66,10 @@ PRODUCT_PACKAGES += \
     libnbaio_mono \
     libnbaio_mono.vendor \
     libaudio-resampler \
-    libaudiohal
+    libaudiohal \
+    libtinyalsa \
+    libtinyxml \
+    libtinymix
 
 PRODUCT_PACKAGES += \
     audio.bluetooth.default \
