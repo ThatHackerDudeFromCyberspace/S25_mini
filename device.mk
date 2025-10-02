@@ -64,7 +64,11 @@ PRODUCT_PACKAGES += \
     libalsautils \
     libalsautils.vendor \
     libnbaio_mono \
-    libnbaio_mono.vendor
+    libnbaio_mono.vendor \
+    libtinycompress \
+    libtinycompress.vendor \
+    libaudio-resampler \
+    libaudiohal
 
 PRODUCT_PACKAGES += \
     audio.bluetooth.default \
@@ -251,8 +255,6 @@ PRODUCT_COPY_FILES += \
 
 # Extras
 PRODUCT_PACKAGES += \
-    libaudio-resampler \
-    libaudiohal \
     liblogwrap \
     liblz4 \
     libminui \
