@@ -60,7 +60,11 @@ PRODUCT_PACKAGES += \
     android.hardware.soundtrigger@2.2-impl \
     audio.a2dp.default \
     android.hardware.bluetooth.a2dp@1.0-impl \
-    android.hardware.bluetooth.a2dp@1.0-service
+    android.hardware.bluetooth.a2dp@1.0-service \
+    libalsautils \
+    libalsautils.vendor \
+    libnbaio_mono \
+    libnbaio_mono.vendor
 
 PRODUCT_PACKAGES += \
     audio.bluetooth.default \

@@ -908,9 +908,5 @@ system/etc/hearing_aid_audio_policy_configuration.xml
 system/etc/default_volume_tables.xml
 system/etc/audio_policy_configuration.xml
 
-vendor/lib/libalsautils.so
-vendor/lib/libnbaio_mono.so
-
-
 # Gatekeeper
 vendor/lib/hw/gatekeeper.default.so
