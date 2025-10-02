@@ -785,13 +785,26 @@ system/lib/libmtkavenhancements.so
 system/lib/libdirect-coredump.so
 
 # Audio config
-vendor/etc/bluetooth_audio_policy_configuration.xml
-vendor/etc/a2dp_in_audio_policy_configuration.xml
-vendor/etc/audio_policy_configuration.xml
+vendor/etc/audio_param/RecordVolUI_AudioParam.xml
+vendor/etc/audio_param/PlaybackDRC_ParamUnitDesc.xml
+vendor/etc/audio_param/RingbackVol_ParamUnitDesc.xml
+vendor/etc/audio_param/VoIPVolUI_ParamUnitDesc.xml
 vendor/etc/usb_audio_policy_configuration.xml
+vendor/etc/audio_policy_volumes.xml
 vendor/etc/audio_policy_configuration_bluetooth_legacy_hal.xml
 vendor/etc/r_submix_audio_policy_configuration.xml
+vendor/etc/audio_effects.xml
 vendor/etc/a2dp_audio_policy_configuration.xml
+
+system/etc/audio_policy_volumes.xml
+system/etc/audio_policy_configuration_stub.xml
+system/etc/audio_policy_configuration_bluetooth_legacy_hal.xml
+system/etc/a2dp_audio_policy_configuration.xml
+system/etc/bluetooth_audio_policy_configuration.xml
+system/etc/r_submix_audio_policy_configuration.xml
+system/etc/usb_audio_policy_configuration.xml
+system/etc/hearing_aid_audio_policy_configuration.xml
+system/etc/audio_policy_configuration.xml
 
 # Gatekeeper
 vendor/lib/hw/gatekeeper.default.so
