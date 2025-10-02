@@ -781,3 +781,6 @@ system/lib/libmtkperf_client.so
 system/lib/libmtkbootanimation.so
 system/lib/libmtkshifter.so
 system/lib/libmtkavenhancements.so
+
+# System coredump
+system/lib/libdirect-coredump.so

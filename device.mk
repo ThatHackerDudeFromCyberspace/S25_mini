@@ -233,5 +233,15 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/wifi/,$(TARGET_COPY_OUT_VENDOR)/etc/wifi)
 
+# Extras
+PRODUCT_PACKAGES += \
+    libaudio-resampler \
+    libaudiohal \
+    liblogwrap \
+    liblz4 \
+    libminui \
+    libnl \
+    libprotobuf-cpp-full
+
 # Copy proprietary files
 $(call inherit-product-if-exists, vendor/welcome/S25_mini/S25_mini-vendor.mk)
