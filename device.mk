@@ -180,14 +180,7 @@ PRODUCT_PACKAGES += \
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service \
-    android.hardware.usb-service.mediatek \
-    android.hardware.usb.gadget-service.mediatek \
-    android.hardware.usb.gadget@1.1-service \
-    android.hardware.usb.gadget@1.1-impl \
-    android.hardware.usb.gadget@1.0-service \
-    android.hardware.usb.gadget@1.0-impl \
-    android.hardware.usb.gadget@1.0.vendor \
-    android.hardware.usb.gadget@1.1.vendor
+    android.hardware.usb-service.mediatek
 
 # GPS
 PRODUCT_PACKAGES += \
