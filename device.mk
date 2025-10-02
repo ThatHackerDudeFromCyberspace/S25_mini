@@ -184,6 +184,8 @@ PRODUCT_PACKAGES += \
     android.hardware.usb.gadget-service.mediatek \
     android.hardware.usb.gadget@1.1-service \
     android.hardware.usb.gadget@1.1-impl \
+    android.hardware.usb.gadget@1.0-service \
+    android.hardware.usb.gadget@1.0-impl \
     android.hardware.usb.gadget@1.0.vendor \
     android.hardware.usb.gadget@1.1.vendor
 
@@ -244,8 +246,8 @@ PRODUCT_PACKAGES += \
 # Vibrator
 $(call soong_config_set, vibrator, vibratortargets, vibratoraidlV2target)
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator@1.3-impl \
-    android.hardware.vibrator@1.3-service
+    android.hardware.vibrator@1.0-impl \
+    android.hardware.vibrator@1.0-service
 
 
 # Wi-Fi
@@ -253,7 +255,21 @@ PRODUCT_PACKAGES += \
     wpa_supplicant \
     hostapd \
     libwifi-hal-wrapper \
-    android.hardware.wifi-service
+    android.hardware.wifi-service \
+    android.hardware.wifi@1.0 \
+    android.hardware.wifi@1.1 \
+    android.hardware.wifi@1.2 \
+    android.hardware.wifi@1.3 \
+    android.hardware.wifi@1.3-impl \
+    android.hardware.wifi@1.3-service \
+    android.hardware.wifi@1.0-service-lib \
+    android.hardware.wifi.hostapd@1.0 \
+    android.hardware.wifi.hostapd@1.1 \
+    android.hardware.wifi.hostapd@1.1-impl \
+    android.hardware.wifi.hostapd@1.1-service \
+    android.hardware.wifi.supplicant@1.0 \
+    android.hardware.wifi.supplicant@1.1 \
+    android.hardware.wifi.supplicant@1.2
 
 # Keystore
 PRODUCT_PACKAGES += \
