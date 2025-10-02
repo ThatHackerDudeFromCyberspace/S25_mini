@@ -64,8 +64,7 @@ PRODUCT_PACKAGES += \
     libalsautils \
     libalsautils.vendor \
     libnbaio_mono \
-    libnbaio_mono.vendor \
-    libtinycompress
+    libnbaio_mono.vendor
 
 PRODUCT_PACKAGES += \
     audio.bluetooth.default \
@@ -209,13 +208,9 @@ PRODUCT_PACKAGES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    android.hardware.sensors@1.0.vendor \
-    android.hardware.sensors@2.0.vendor \
+    android.hardware.sensors@2.0-subhal-impl-1.0 \
     android.frameworks.sensorservice@1.0 \
-    android.frameworks.sensorservice@1.0.vendor \
-    android.hardware.sensors@1.0 \
-    android.hardware.sensors@2.0
-
+    android.frameworks.sensorservice@1.0.vendor
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0-impl
