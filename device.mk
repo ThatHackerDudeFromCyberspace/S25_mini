@@ -69,7 +69,10 @@ PRODUCT_PACKAGES += \
     libaudiohal \
     libtinyalsa \
     libtinyxml \
-    libtinymix
+    libtinymix \
+    libtinyalsa.vendor \
+    libtinyxml.vendor \
+    libtinymix.vendor
 
 PRODUCT_PACKAGES += \
     audio.bluetooth.default \
