@@ -644,6 +644,7 @@ vendor/etc/init/fuelgauged_nvram_init.rc
 
 # GPS
 vendor/etc/slp_conf
+vendor/etc/agps_profiles_conf2.xml
 
 # IMS
 system/bin/vtservice
