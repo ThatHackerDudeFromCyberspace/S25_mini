@@ -65,8 +65,6 @@ PRODUCT_PACKAGES += \
     libalsautils.vendor \
     libnbaio_mono \
     libnbaio_mono.vendor \
-    libtinycompress \
-    libtinycompress.vendor \
     libaudio-resampler \
     libaudiohal
 
