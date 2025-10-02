@@ -61,6 +61,7 @@ ENABLE_LIBDRM := true
 PRODUCT_PACKAGES += \
     libdrm \
     libdrm.vendor \
+    libsensorndkbridge \
     libsensorndkbridge.vendor
 
 # Audio
@@ -68,20 +69,14 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.common-util.vendor \
     android.hardware.audio.common@5.0-util.vendor \
     android.hardware.audio.common@5.0.vendor \
-    android.hardware.audio.common@6.0-util.vendor \
-    android.hardware.audio.common@6.0.vendor \
-    android.hardware.audio.common@7.0-enums.vendor \
-    android.hardware.audio.common@7.0-util.vendor \
     android.hardware.audio@5.0.vendor \
-    android.hardware.audio@6.0.vendor \
-    android.hardware.audio@7.0-util.vendor \
-    android.hardware.audio@7.0.vendor \
-    android.hardware.audio.effect@7.0.vendor \
-    android.hardware.audio.effect@7.0-impl:32
+    android.hardware.audio.effect@5.0.vendor \
+    android.hardware.audio.effect@5.0-impl \
 
 PRODUCT_PACKAGES += \
-    audio.bluetooth.default:32 \
-    android.hardware.bluetooth.audio-impl:32
+    audio.bluetooth.default \
+    android.hardware.bluetooth.audio-impl \
+    android.hardware.bluetooth.audio@2.0-impl
 
 PRODUCT_PACKAGES += \
     MtkInCallService
@@ -107,7 +102,8 @@ PRODUCT_PACKAGES += \
 
 # Stagefright
 PRODUCT_PACKAGES += \
-    libstagefrighthw
+    libstagefrighthw \
+    libstagefrighthw.vendor
 
 PRODUCT_PACKAGES += \
     fastbootd
@@ -189,7 +185,8 @@ PRODUCT_PACKAGES += \
 # Gatekeeper
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-service \
-    android.hardware.gatekeeper@1.0-impl
+    android.hardware.gatekeeper@1.0-impl \
+    android.hardware.gatekeeper@1.0.vendor
 
 # HIDL
 PRODUCT_PACKAGES += \
@@ -218,6 +215,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0-impl
 
+# Health
+PRODUCT_PACKAGES += \
+    android.hardware.health@1.0-impl \
+    android.hardware.health@1.0-service
+
 # Vibrator
 $(call soong_config_set, vibrator, vibratortargets, vibratoraidlV2target)
 
@@ -231,7 +233,10 @@ PRODUCT_PACKAGES += \
 
 # Keystore
 PRODUCT_PACKAGES += \
-    android.hardware.keymaster@4.1.vendor
+    android.hardware.keymaster@4.0.vendor \
+    android.hardware.keymaster@4.0 \
+    android.hardware.keymaster@4.0-impl \
+    android.hardware.keymaster@4.0-service
 
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/wifi/,$(TARGET_COPY_OUT_VENDOR)/etc/wifi)
