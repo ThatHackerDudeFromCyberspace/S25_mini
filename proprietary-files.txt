@@ -624,7 +624,6 @@ vendor/etc/init/hw/init.mt6739.usb.rc
 vendor/etc/init/hw/init.connectivity.rc
 vendor/etc/init/hw/init.project.rc
 vendor/etc/init/hw/init.aee.rc
-vendor/etc/init/hw/init.sensor_1_0.rc
 vendor/etc/init/hw/init.mt6739.usb.rc
 vendor/etc/init/hw/init.ago.rc
 vendor/etc/init/hw/meta_init.modem.rc
@@ -910,3 +909,6 @@ system/etc/audio_policy_configuration.xml
 
 # Gatekeeper
 vendor/lib/hw/gatekeeper.default.so
+
+# Sensors
+vendor/lib/hw/sensors.mt6739.so
