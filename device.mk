@@ -25,20 +25,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.mt6739:$(TARGET_COPY_OUT_RAMDISK)/fstab.mt6739 \
 	$(LOCAL_PATH)/rootdir/etc/fstab.mt6739:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.mt6739 \
-    $(LOCAL_PATH)/rootdir/etc/init.logging.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.logging.rc \
-    $(LOCAL_PATH)/rootdir/etc/init.mt6739.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.mt6739.rc
+    $(LOCAL_PATH)/rootdir/etc/init/init.logging.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.logging.rc \
+    $(LOCAL_PATH)/rootdir/etc/init/init.mt6739.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.mt6739.rc \
+    $(LOCAL_PATH)/rootdir/etc/init/hw/init.aee.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/hw/init.aee.rc
 
 # Audio policy configuration
 USE_XML_AUDIO_POLICY_CONF := 1
-PRODUCT_COPY_FILES += \
-    frameworks/av/services/audiopolicy/config/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_audio_policy_configuration.xml \
-    frameworks/av/services/audiopolicy/config/a2dp_in_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_in_audio_policy_configuration.xml \
-    frameworks/av/services/audiopolicy/config/audio_policy_configuration_bluetooth_legacy_hal.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration_bluetooth_legacy_hal.xml \
-    frameworks/av/services/audiopolicy/config/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml \
-    frameworks/av/services/audiopolicy/config/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
-    frameworks/av/services/audiopolicy/config/bluetooth_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_audio_policy_configuration.xml \
-    frameworks/av/services/audiopolicy/config/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/r_submix_audio_policy_configuration.xml \
-    frameworks/av/services/audiopolicy/config/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \

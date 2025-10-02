@@ -624,7 +624,6 @@ vendor/etc/init/hw/init.mt6739.usb.rc
 vendor/etc/init/hw/init.connectivity.rc
 vendor/etc/init/hw/init.project.rc
 vendor/etc/init/hw/init.aee.rc
-system/etc/init/hw/init.aee.rc
 vendor/etc/init/hw/init.sensor_1_0.rc
 vendor/etc/init/hw/init.mt6739.usb.rc
 vendor/etc/init/hw/init.ago.rc
@@ -784,3 +783,15 @@ system/lib/libmtkavenhancements.so
 
 # System coredump
 system/lib/libdirect-coredump.so
+
+# Audio config
+vendor/etc/bluetooth_audio_policy_configuration.xml
+vendor/etc/a2dp_in_audio_policy_configuration.xml
+vendor/etc/audio_policy_configuration.xml
+vendor/etc/usb_audio_policy_configuration.xml
+vendor/etc/audio_policy_configuration_bluetooth_legacy_hal.xml
+vendor/etc/r_submix_audio_policy_configuration.xml
+vendor/etc/a2dp_audio_policy_configuration.xml
+
+# Gatekeeper
+vendor/lib/hw/gatekeeper.default.so
