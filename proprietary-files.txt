@@ -916,3 +916,4 @@ vendor/lib/hw/sensors.mt6739.so
 
 # Idk
 vendor/etc/powercontable.xml
+vendor/etc/aurisys_config.xml

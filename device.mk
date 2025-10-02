@@ -238,6 +238,9 @@ PRODUCT_PACKAGES += \
 
 # Vibrator
 $(call soong_config_set, vibrator, vibratortargets, vibratoraidlV2target)
+PRODUCT_PACKAGES += \
+    android.hardware.vibrator@1.3-impl \
+    android.hardware.vibrator@1.3-service
 
 
 # Wi-Fi
