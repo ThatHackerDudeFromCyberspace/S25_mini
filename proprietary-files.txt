@@ -673,7 +673,12 @@ system/lib/libvcodec_capenc.so
 system/lib/libvt_avsync.so
 system/lib/vendor.mediatek.hardware.videotelephony@1.0.so
 system/priv-app/ImsService/ImsService.apk
+
 # Keymaster
+vendor/lib/libkeymaster4.so
+vendor/lib/libkeymaster4support.so
+vendor/etc/init/android.hardware.keymaster@4.0-service.rc
+vendor/bin/hw/android.hardware.keymaster@4.0-service
 
 # Tether Offload
 vendor/etc/init/netdagent.rc
