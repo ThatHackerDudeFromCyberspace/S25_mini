@@ -547,6 +547,9 @@ vendor/firmware/rgx.fw
 vendor/firmware/WIFI_RAM_CODE_6755
 vendor/firmware/BT_FW.cfg
 
+# WiFi
+vendor/lib/libwifi-hal.so
+
 # Bluetooth
 vendor/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc
 
