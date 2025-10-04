@@ -113,11 +113,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fastbootd
 
-
-# FM Radio
-PRODUCT_PACKAGES += \
-    FMRadio
-
 # Camera
 PRODUCT_PACKAGES += \
     Aperture
