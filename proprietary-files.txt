@@ -548,7 +548,9 @@ vendor/firmware/WIFI_RAM_CODE_6755
 vendor/firmware/BT_FW.cfg
 
 # WiFi
-vendor/lib/libwifi-hal.so
+vendor/etc/wifi/wpa_supplicant.conf
+vendor/etc/wifi/p2p_supplicant_overlay.conf
+vendor/etc/wifi/wpa_supplicant_overlay.conf
 
 # Bluetooth
 vendor/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc
