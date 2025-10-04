@@ -80,8 +80,7 @@ PRODUCT_PACKAGES += \
     audio.r_submix.default
 
 PRODUCT_PACKAGES += \
-    audio.bluetooth.default \
-    android.hardware.bluetooth.audio-impl
+    audio.bluetooth.default
 
 PRODUCT_PACKAGES += \
     MtkInCallService
