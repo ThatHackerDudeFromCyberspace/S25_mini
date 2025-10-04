@@ -554,10 +554,7 @@ vendor/etc/wifi/wpa_supplicant_overlay.conf
 
 # Bluetooth
 vendor/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc
-system/etc/bluetooth/bt_did.conf
-system/etc/bluetooth/mtk_bt_stack.conf
-system/etc/bluetooth/bt_stack.conf
-system/etc/bluetooth/mtk_bt_fw.conf
+vendor/lib/libbt-vendor.so
 
 # Camera
 vendor/etc/init/camerahalserver.rc
