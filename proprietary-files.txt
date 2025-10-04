@@ -322,6 +322,7 @@ vendor/lib/hw/audio.usb.mt6739.so
 vendor/lib/hw/gralloc.mt6739.so
 vendor/lib/hw/vendor.mediatek.hardware.camera.lomoeffect@1.0-impl.so
 vendor/lib/hw/android.hardware.gnss@2.0-impl-mediatek.so
+vendor/lib/hw/android.hardware.audio@5.0-impl-mediatek.so
 vendor/lib/hw/vendor.mediatek.hardware.mms@1.5-impl.so
 vendor/lib/hw/thermal.mt6739.so
 vendor/lib/hw/vendor.mediatek.hardware.mtkpower@1.0-impl.so
@@ -414,6 +415,7 @@ vendor/bin/hw/modemdbfilter_service
 vendor/bin/hw/power_legacy_test_v_1_0
 vendor/bin/hw/android.hardware.secure_element@1.0-service-mediatek
 vendor/bin/hw/vendor.mediatek.hardware.mms@1.5-service
+vendor/bin/hw/android.hardware.audio@5.0-service-mediatek
 vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service
 vendor/bin/hw/camerahalserver
 vendor/bin/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-service
@@ -605,6 +607,7 @@ vendor/etc/init/audiocmdservice_atci.rc
 vendor/etc/init/mtkrild.rc
 vendor/etc/init/init.bip.rc
 vendor/etc/init/init.bt_drv.rc
+vendor/etc/init/android.hardware.audio@5.0-service-mediatek.rc
 vendor/etc/init/mtk_agpsd_p.rc
 vendor/etc/init/init.volte_stack.rc
 vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc

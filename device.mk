@@ -59,7 +59,6 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.common@5.0-util.vendor \
     android.hardware.audio.common@5.0.vendor \
     android.hardware.audio@5.0.vendor \
-    android.hardware.audio@5.0-impl \
     android.hardware.audio.effect@5.0.vendor \
     android.hardware.audio.effect@5.0-impl \
     android.hardware.soundtrigger@2.2-impl \
@@ -67,7 +66,6 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.a2dp@1.0-impl \
     android.hardware.bluetooth.a2dp@1.0-service \
     android.hardware.bluetooth.audio@2.0-impl \
-    android.hardware.bluetooth.audio-impl \
     libalsautils \
     libalsautils.vendor \
     libnbaio_mono \
