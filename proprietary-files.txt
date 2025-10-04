@@ -561,6 +561,7 @@ system/etc/bluetooth/mtk_bt_fw.conf
 
 # Camera
 vendor/etc/init/camerahalserver.rc
+vendor/etc/media_profiles_V1_0.xml
 
 # Wireless
 vendor/etc/init/init.wmt_drv.rc
@@ -924,5 +925,6 @@ vendor/lib/hw/sensors.mt6739.so
 
 # Idk
 vendor/etc/powercontable.xml
+vendor/etc/powerscntbl.xml
 vendor/etc/aurisys_config.xml
 system/etc/permissions/privapp-permissions-mediatek.xml
