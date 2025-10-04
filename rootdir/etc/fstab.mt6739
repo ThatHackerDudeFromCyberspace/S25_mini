@@ -91,8 +91,3 @@ product /product ext4 ro wait,avb,logical,first_stage_mount,
 /dev/block/platform/bootdevice/by-name/loader_ext2 /loader_ext2 emmc defaults defaults
 
 /dev/block/platform/bootdevice/by-name/vbmeta /vbmeta emmc defaults defaults
-
-
-###
-# Enables the swap
-/dev/block/zram0                                    none               swap        defaults                                              zramsize=50%,max_comp_streams=8

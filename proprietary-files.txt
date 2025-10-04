@@ -362,6 +362,8 @@ vendor/lib/libgpu_aux.so
 vendor/lib/libbluetooth_mtk.so
 
 # This is every binary it has
+vendor/bin/swapon
+vendor/bin/swapoff
 vendor/bin/jpegtool
 vendor/bin/dtc_vendor
 vendor/bin/thermalloadalgod
