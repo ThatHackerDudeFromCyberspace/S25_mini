@@ -325,7 +325,6 @@ vendor/lib/hw/android.hardware.gnss@2.0-impl-mediatek.so
 vendor/lib/hw/android.hardware.audio@5.0-impl-mediatek.so
 vendor/lib/hw/vendor.mediatek.hardware.mms@1.5-impl.so
 vendor/lib/hw/thermal.mt6739.so
-vendor/lib/hw/android.hardware.bluetooth.audio@2.0-impl-mediatek.so
 vendor/lib/hw/vendor.mediatek.hardware.mtkpower@1.0-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so
 vendor/lib/hw/android.hardware.camera.provider@2.4-impl-mediatek.so

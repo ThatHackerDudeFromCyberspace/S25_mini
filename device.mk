@@ -65,6 +65,7 @@ PRODUCT_PACKAGES += \
     audio.a2dp.default \
     android.hardware.bluetooth.a2dp@1.0-impl \
     android.hardware.bluetooth.a2dp@1.0-service \
+    android.hardware.bluetooth.audio@2.0-impl \
     libalsautils \
     libalsautils.vendor \
     libnbaio_mono \
