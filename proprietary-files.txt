@@ -905,6 +905,9 @@ vendor/etc/r_submix_audio_policy_configuration.xml
 vendor/etc/audio_effects.xml
 vendor/etc/a2dp_audio_policy_configuration.xml
 
+# Aurisys
+vendor/etc/aurisys_config.xml
+
 system/etc/audio_policy_volumes.xml
 system/etc/audio_policy_configuration_stub.xml
 system/etc/audio_policy_configuration_bluetooth_legacy_hal.xml
@@ -925,5 +928,4 @@ vendor/lib/hw/sensors.mt6739.so
 # Idk
 vendor/etc/powercontable.xml
 vendor/etc/powerscntbl.xml
-vendor/etc/aurisys_config.xml
 system/etc/permissions/privapp-permissions-mediatek.xml

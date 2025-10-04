@@ -52,6 +52,8 @@ PRODUCT_PACKAGES += \
     libsensorndkbridge.vendor
 
 # Audio
+USE_CUSTOM_AUDIO_POLICY := 1
+BOARD_USES_MTK_AUDIO := true
 PRODUCT_PACKAGES += \
     android.hardware.audio.common-util.vendor \
     android.hardware.audio.common@5.0-util.vendor \
@@ -74,12 +76,12 @@ PRODUCT_PACKAGES += \
     libtinymix \
     libtinyalsa.vendor \
     libtinyxml.vendor \
-    libtinymix.vendor
+    libtinymix.vendor \
+    audio.r_submix.default
 
 PRODUCT_PACKAGES += \
     audio.bluetooth.default \
-    android.hardware.bluetooth.audio-impl \
-    android.hardware.bluetooth.audio@2.0-impl
+    android.hardware.bluetooth.audio-impl
 
 PRODUCT_PACKAGES += \
     MtkInCallService
